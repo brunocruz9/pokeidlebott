@@ -2,7 +2,7 @@
 // @name         Poke Idle World - Smart Assistant Core (GitHub Cloud Version)
 // @version      1.2.0
 // @author       brunocruz9
-// @repository   https://github.com/brunocruz9/pokeidlebot
+// @repository   https://github.com/brunocruz9/pokeidlebott
 // @description  Núcleo de automação com rotas EXP, leitura direta no DOM de poções/pokébolas e auto-restock
 // ==/UserScript==
 

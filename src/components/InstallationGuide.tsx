@@ -11,7 +11,7 @@ export const InstallationGuide: React.FC = () => {
   };
 
   const gitPushCommands = `# 1. Acesse o seu repositório local
-cd pokeidlebot
+cd pokeidlebott
 
 # 2. Copie ou edite o arquivo bot-core.js na raiz do projeto
 # (Cole o código disponível na aba 'bot-core.js' deste assistente)
@@ -26,7 +26,7 @@ git commit -m "feat: atualiza nucleo com leitura direta e auto-restock v1.2.0"
 git branch -M main
 
 # 6. Se ainda não adicionou o repositório remoto:
-git remote add origin https://github.com/brunocruz9/pokeidlebot.git
+git remote add origin https://github.com/brunocruz9/pokeidlebott.git
 
 # 7. Suba a atualização para o GitHub
 git push origin main`;
@@ -42,7 +42,7 @@ git push origin main`;
           </h2>
         </div>
         <p className="text-xs text-slate-300 leading-relaxed">
-          Nesta arquitetura moderna, os usuários instalam o carregador local no Chrome apenas <strong>uma única vez</strong>. Toda a lógica, dados de rotas, seletores e automações residem no arquivo <strong className="text-blue-400">bot-core.js</strong> no repositório <strong className="text-emerald-400">brunocruz9/pokeidlebot</strong>. A cada carregamento da página do jogo, o script baixa a versão mais recente e aplica na hora!
+          Nesta arquitetura moderna, os usuários instalam o carregador local no Chrome apenas <strong>uma única vez</strong>. Toda a lógica, dados de rotas, seletores e automações residem no arquivo <strong className="text-blue-400">bot-core.js</strong> no repositório <strong className="text-emerald-400">brunocruz9/pokeidlebott</strong>. A cada carregamento da página do jogo, o script baixa a versão mais recente e aplica na hora!
         </p>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-3 pt-1">
           <div className="bg-slate-950/70 border border-emerald-500/30 p-3 rounded-lg flex items-start gap-2.5">
@@ -60,7 +60,7 @@ git push origin main`;
             <div className="text-xs space-y-1">
               <span className="font-bold text-blue-300">Parte 2: Na Nuvem (GitHub)</span>
               <p className="text-slate-400">
-                Você sobe o <code>bot-core.js</code> no repositório <strong>brunocruz9/pokeidlebot</strong>. Qualquer alteração reflete na hora para quem estiver jogando (F5).
+                Você sobe o <code>bot-core.js</code> no repositório <strong>brunocruz9/pokeidlebott</strong>. Qualquer alteração reflete na hora para quem estiver jogando (F5).
               </p>
             </div>
           </div>
@@ -142,7 +142,7 @@ git push origin main`;
         <div className="text-xs text-slate-300">
           O loader ultraleve busca diretamente por:
           <div className="mt-1 p-2 bg-slate-950 rounded font-mono text-emerald-400 border border-slate-800 select-all overflow-x-auto">
-            https://raw.githubusercontent.com/brunocruz9/pokeidlebot/main/bot-core.js
+            https://raw.githubusercontent.com/brunocruz9/pokeidlebott/main/bot-core.js
           </div>
         </div>
 
@@ -158,7 +158,7 @@ git push origin main`;
             <span>Opção sem Git (Direto pelo Navegador no GitHub):</span>
           </div>
           <ol className="list-decimal list-inside space-y-1 text-slate-300">
-            <li>Acesse <a href="https://github.com/brunocruz9/pokeidlebot" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">https://github.com/brunocruz9/pokeidlebot</a>.</li>
+            <li>Acesse <a href="https://github.com/brunocruz9/pokeidlebott" target="_blank" rel="noreferrer" className="text-blue-400 hover:underline">https://github.com/brunocruz9/pokeidlebott</a>.</li>
             <li>Clique em <strong>Add file</strong> &gt; <strong>Create new file</strong> (ou <strong>Upload files</strong>).</li>
             <li>Dê o nome exato de <code className="text-emerald-400">bot-core.js</code>.</li>
             <li>Cole o conteúdo da aba <strong>bot-core.js</strong> e clique em <strong>Commit changes</strong> salvando na branch <code>main</code>.</li>

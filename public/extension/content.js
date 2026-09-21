@@ -11,7 +11,7 @@
   if (window.__POKE_IDLE_LOADER_INITIALIZED__) return;
   window.__POKE_IDLE_LOADER_INITIALIZED__ = true;
 
-  const REMOTE_CORE_URL = 'https://raw.githubusercontent.com/brunocruz9/pokeidlebot/main/bot-core.js';
+  const REMOTE_CORE_URL = 'https://raw.githubusercontent.com/brunocruz9/pokeidlebott/main/bot-core.js';
   const CACHE_KEY = '__POKE_IDLE_CORE_CACHE__';
   const CACHE_TIME_KEY = '__POKE_IDLE_CORE_CACHE_TIME__';
 
@@ -109,7 +109,7 @@
         injectScript(cached);
         showFallbackNotice('Conexão com GitHub indisponível. Usando versão local em cache.', false);
       } else {
-        showFallbackNotice('Não foi possível carregar o bot-core do GitHub (repositório brunocruz9/pokeidlebot). Verifique sua conexão à internet.');
+        showFallbackNotice('Não foi possível carregar o bot-core do GitHub (repositório brunocruz9/pokeidlebott). Verifique sua conexão à internet.');
       }
     }
   }

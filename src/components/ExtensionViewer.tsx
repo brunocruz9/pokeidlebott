@@ -114,7 +114,7 @@ export const ExtensionViewer: React.FC = () => {
             <>
               <Cloud className="w-4 h-4 text-blue-400 shrink-0" />
               <span className="text-slate-300">
-                Destino deste arquivo: <strong className="text-blue-300 font-mono">GitHub &gt; brunocruz9/pokeidlebot &gt; bot-core.js</strong> (atualizações automáticas via CDN anti-cache).
+                Destino deste arquivo: <strong className="text-blue-300 font-mono">GitHub &gt; brunocruz9/pokeidlebott &gt; bot-core.js</strong> (atualizações automáticas via CDN anti-cache).
               </span>
             </>
           ) : activeTab === 'readme' ? (
@@ -251,7 +251,7 @@ export const ExtensionViewer: React.FC = () => {
             2. Atualizações Imediatas via GitHub
           </div>
           <p className="text-xs text-slate-400 leading-normal">
-            O <code>bot-core.js</code> fica no repositório <strong>brunocruz9/pokeidlebot</strong>. Ao dar <code>git push</code> ou salvar pelo GitHub, a nova versão entra em vigor ao dar F5 no jogo graças à tag anti-cache <code>?t=Date.now()</code>.
+            O <code>bot-core.js</code> fica no repositório <strong>brunocruz9/pokeidlebott</strong>. Ao dar <code>git push</code> ou salvar pelo GitHub, a nova versão entra em vigor ao dar F5 no jogo graças à tag anti-cache <code>?t=Date.now()</code>.
           </p>
         </div>
 

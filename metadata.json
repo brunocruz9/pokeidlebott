@@ -1,0 +1,6 @@
+{
+  "name": "Poke Idle World Assistant Extension",
+  "description": "Extensão Google Chrome Manifest V3 para automação, otimização de rotas e auto-restock no jogo Poke Idle World.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

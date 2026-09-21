@@ -1,0 +1,28 @@
+{
+  "manifest_version": 3,
+  "name": "Poke Idle World - Smart Assistant",
+  "version": "1.2.0",
+  "description": "Smart Assistant para Poke Idle World com auto-update remoto via GitHub: rotas EXP inteligentes, auto-viagem e auto-restock com leitura direta.",
+  "author": "brunocruz9",
+  "permissions": [
+    "storage"
+  ],
+  "host_permissions": [
+    "https://poke.idleworld.online/*",
+    "*://poke.idleworld.online/*",
+    "https://raw.githubusercontent.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://poke.idleworld.online/*",
+        "*://poke.idleworld.online/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Poke Idle Assistant"
+  }
+}
